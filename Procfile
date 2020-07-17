@@ -1,1 +1,1 @@
-worker: sh target/bin/yuraSpeakBot
+web: sh target/bin/yuraSpeakBot
