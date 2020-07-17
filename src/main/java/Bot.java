@@ -10,7 +10,7 @@ public class Bot extends TelegramLongPollingBot {
     String message = update.getMessage().getText();
     long chatId = update.getMessage().getChatId();
     if (message.equalsIgnoreCase("Привіт")) {
-      sendMsg(chatId, "Привіт, Надю");
+      sendMsg(chatId, "Привіт, " + update.getMessage().getContact().getFirstName());
     } else {
       sendMsg(chatId, "Що це таке?");
     }
