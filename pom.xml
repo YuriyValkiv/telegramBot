@@ -26,7 +26,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>Bot</mainClass>
+                            <mainClass>StartApplication</mainClass>
                             <name>yuraSpeakBot</name>
                         </program>
                     </programs>
