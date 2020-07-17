@@ -30,7 +30,7 @@ public class Bot extends TelegramLongPollingBot {
   }
 
   public String getBotUsername() {
-    return "YuraSpeakBot";
+    return "yura_speak_bot";
   }
 
   @Override
