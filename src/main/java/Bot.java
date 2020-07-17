@@ -12,7 +12,7 @@ public class Bot extends TelegramLongPollingBot {
     if (message.equalsIgnoreCase("Привіт")) {
       sendMsg(chatId, "Привіт, Надю");
     } else {
-      sendMsg(chatId, "Юра любить Надю!");
+      sendMsg(chatId, "Що це таке?");
     }
 
   }
